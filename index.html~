@@ -1,6 +1,11 @@
 <!doctype html>
 <html>
   <head>
+    <script type="text/javascript">
+	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3022058bb6519daab8c047d5e5c6e88b' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Jingwei Zhang's Homepage</title>
@@ -49,7 +54,7 @@ $ git checkout gh-pages
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-          <script type="text/javascript">
+              <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -59,11 +64,6 @@ $ git checkout gh-pages
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-	  <script src="http://s20.cnzz.com/stat.php?id=4469014&web_id=4469014&show=pic1" language="JavaScript"></script>
-	  <script type="text/javascript">
-		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3022058bb6519daab8c047d5e5c6e88b' type='text/javascript'%3E%3C/script%3E"));
-	  </script> 
 
   </body>
 </html>
