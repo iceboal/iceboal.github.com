@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Water in Water</title>
+ <link href="http://iceboal.com/blog/atom.xml" rel="self"/>
+ <link href="http://iceboal.com/blog"/>
+ <updated>2012-09-15T06:26:13+08:00</updated>
+ <id>http://iceboal.com/blog</id>
+ <author>
+   <name>Jingwei Zhang</name>
+   <email>iceboal@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Hello World</title>
+   <link href="http://iceboal.com/blog/test/2012-09-11-hello-world"/>
+   <updated>2012-09-11T00:00:00+08:00</updated>
+   <id>http://iceboal.com/blog/test/hello-world</id>
+   <content type="html">&lt;p&gt;what the fuck is this?&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>
