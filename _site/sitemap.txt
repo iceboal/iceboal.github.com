@@ -1,12 +1,12 @@
 
-http://iceboal.com/blog/about.html
-http://iceboal.com/blog/archive.html
-http://iceboal.com/blog/atom.xml
-http://iceboal.com/blog/categories.html
-http://iceboal.com/blog/index.html
-http://iceboal.com/blog/pages.html
-http://iceboal.com/blog/resume.html
-http://iceboal.com/blog/sitemap.txt
-http://iceboal.com/blog/tags.html
+http://iceboal.com/about.html
+http://iceboal.com/archive.html
+http://iceboal.com/atom.xml
+http://iceboal.com/categories.html
+http://iceboal.com/index.html
+http://iceboal.com/pages.html
+http://iceboal.com/resume.html
+http://iceboal.com/sitemap.txt
+http://iceboal.com/tags.html
 
-http://iceboal.com/blog/test/2012-09-11-hello-world
+http://iceboal.com/test/2012-09-11-hello-world

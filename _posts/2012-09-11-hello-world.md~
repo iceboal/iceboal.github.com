@@ -6,4 +6,4 @@ category: test
 tags: [test]
 ---
 {% include JB/setup %}
-what the fuck is this?
+Plz visit "about" and "resume".
