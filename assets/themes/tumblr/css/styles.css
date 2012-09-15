@@ -1209,7 +1209,7 @@ body.oldie {
 Media queries
 */
 
-@media screen and (max-width: 11040px)
+@media screen and (max-width: 1010px)
 	html {
 		width:1010px;
 		margin-right: 0;
