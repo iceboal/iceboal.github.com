@@ -1227,6 +1227,9 @@ Media queries
 	}
 
 	footer[role=contentinfo], aside[role=complementary] {
+		/*display: none;*/
+	}
+	footer[role=contentinfo] {
 		display: none;
 	}
 

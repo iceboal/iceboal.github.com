@@ -23,7 +23,5 @@ iframe {
 }
 </style>
 <center>
-<bbbox>
 <iframe src="http://docs.google.com/gview?url=http://iceboal.com/resume_online_version.pdf&amp;embedded=true" frameborder="0"> </iframe>
-</bbbox>
 </center>
