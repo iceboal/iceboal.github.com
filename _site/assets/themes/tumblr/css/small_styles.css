@@ -32,7 +32,7 @@ body {
 	overflow-x: hidden;
 	display: block;
 	position: relative;
-/**/	width:1280px;
+/**/	width:1200px;
 	margin:auto;
 }
 
@@ -97,7 +97,8 @@ div[role=main] {
   background-color: #eee;
   background: #eee url(images/content.png) repeat center top;
 	background: url(images/content-inner-left.png) repeat-y left top, url(images/content-inner-right.png) repeat-y right top, #eee url(images/content.png) repeat center top;
-	margin: 0 200px;
+	left:160px;
+	position: absolute;
 	padding: 0px 50px 0px;
 	width: 780px;
 /*	position: relative;*/
@@ -170,7 +171,7 @@ aside[role=complementary],
 footer#engage {
 	color: #ccc;
 	position: absolute;
-	width: 200px;
+	width: 160px;
 	z-index: 25;
 	-webkit-text-shadow: 0px -1px 0px #222;
 	-moz-text-shadow: 0px -1px 0px #222 ;
@@ -179,13 +180,12 @@ footer#engage {
 }
 /**/
 header[role=banner] {
-	float:left;
-	display:inline;
+	display:inline-block;
 }
 /**/
 aside[role=complementary] {
-	float:right;
-	display:inline;
+	left:1040px;
+	display:inline-block;
 }
 header[role=banner] {
 	top: 0;
@@ -194,9 +194,9 @@ header[role=banner] {
 
 footer[role=contentinfo] {
 	bottom: 0;
-	width: 170px;
-	right: 0px;
-	padding: 0 0 30px 30px;
+	width: 150px;
+	left:1040px;
+	padding: 0 0 30px 10px;
 	color: #666;
 }
 
@@ -267,7 +267,7 @@ header[role=banner] h1 a {
 	display: block;
 	width: 48px;
 	height: 48px;
-  margin: 20px 30px 20px 142px;
+  margin: 20px 30px 20px auto;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -288,7 +288,7 @@ aside[role=complementary] {
   right: 0px;
   margin:auto;
   width: 130px;
-  padding: 85px 25px 0px 45px;
+  padding: 85px 20px 0px 10px;
 }
 
 aside[role=complementary] ul {
@@ -1234,6 +1234,9 @@ Media queries
 	}
 
 	footer[role=contentinfo], aside[role=complementary] {
+		/*display: none;*/
+	}
+	footer[role=contentinfo] {
 		display: none;
 	}
 
