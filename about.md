@@ -16,7 +16,7 @@ weight: 2
         div#picstest
         {
             visibility : hidden;
-            width:90%;
+            width:100%;
         }
         
         img.photo { cursor: pointer; }
