@@ -1209,7 +1209,7 @@ body.oldie {
 Media queries
 */
 
-@media screen and (max-width: 1010px)
+@media screen and (max-device-width: 1010px) {
 	html {
 		width:1010px;
 		margin-right: 0;
@@ -1217,7 +1217,6 @@ Media queries
 	body {
 		width:1010px;
 		margin: 0;
-		overflow:hidden;
 	}
 	div[role=main] {
 		left:130px;
@@ -1251,7 +1250,6 @@ Media queries
 
 }
 
-
 @media screen and (max-height: 710px) and (max-width: 980px) and (-webkit-min-device-pixel-ratio: 0) {
 
 	#engage {
@@ -1259,6 +1257,7 @@ Media queries
 	}
 
 }
+
 
 
  #tumblr_lightbox_center_image {
