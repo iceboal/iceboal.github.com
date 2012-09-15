@@ -13,22 +13,19 @@ Reset
 
 section, header, article, nav, footer { display: block; }
 
-center {
-		margin:auto;
-	}
 
 /*
 Core
 */
 
 html {
-  background: #333 url(images/body.png) repeat center center fixed;
+  background: #333 url(/images/body.png) repeat center center fixed;
   height: 100%;
 /*        overflow-y: auto;
 */      }
 
 body {
-	background: #333 url(images/body.png) repeat center center fixed;
+	background: #333 url(/images/body.png) repeat center center fixed;
 	color: #333;
 	font: 13px/20px "Helvetica Neue", Arial, sans-serif;
   height: 100%;
@@ -96,8 +93,8 @@ Structure
 
 div[role=main] {
   background-color: #eee;
-  background: #eee url(images/content.png) repeat center top;
-	background: url(images/content-inner-left.png) repeat-y left top, url(images/content-inner-right.png) repeat-y right top, #eee url(images/content.png) repeat center top;
+  background: #eee url(/images/content.png) repeat center top;
+	background: url(/images/content-inner-left.png) repeat-y left top, url(/images/content-inner-right.png) repeat-y right top, #eee url(/images/content.png) repeat center top;
 	margin: 0 200px;
 	padding: 0px 50px 0px;
 /*	position: relative;*/
@@ -120,13 +117,13 @@ div[role=main]:before {
 }
 
 div[role=main]:after {
-	right: -10px;
-	background: url(images/content-outer-right.png);
+	right: 190px;
+	background: url(/images/content-outer-right.png);
 }
 
 div[role=main]:before {
-	left: -10px;
-	background: url(images/content-outer-left.png);
+	left: 190px;
+	background: url(/images/content-outer-left.png);
 }
 
 .fullscreen div[role=main] {
@@ -177,16 +174,16 @@ footer#engage {
 	text-shadow: 0px -1px 0px #222 ;
 
 }
-/**/
+/*
 header[role=banner] {
 	float:left;
 	display:inline;
 }
-/**/
+
 aside[role=complementary] {
 	float:right;
 	display:inline;
-}
+}*/
 header[role=banner] {
 	top: 0;
 	left: 0;
@@ -268,7 +265,7 @@ header[role=banner] h1 a {
 	display: block;
 	width: 48px;
 	height: 48px;
-  margin: 20px 30px 20px 142px;
+  margin: 20px 30px 20px auto;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -726,6 +723,14 @@ article footer li.tweet {
 
 .article-content img {
   margin: 3px;
+  -webkit-box-shadow: 0px 0px 5px black;
+  -moz-box-shadow: 0px 0px 5px black;
+  box-shadow: 0px 0px 5px black;
+  max-width: 490px;
+}
+
+article.text img {
+margin: 3px;
   -webkit-box-shadow: 0px 0px 5px black;
   -moz-box-shadow: 0px 0px 5px black;
   box-shadow: 0px 0px 5px black;
@@ -1204,36 +1209,48 @@ body.oldie {
 Media queries
 */
 
-@media screen and (max-width: 1024px) and (min-width: 981px) {
-
-	.fullscreen div[role=main]:after {
-		display: none;
-	}
-
-}
-
-@media screen and (max-width: 980px) {
-
-
-	div[role=main]:after {
-		display: none;
-	}
-
-	div[role=main] {
+@media screen and (max-width: 11040px)
+	html {
+		width:1010px;
 		margin-right: 0;
+	}
+	body {
+		width:1010px;
+		margin: 0;
+		overflow:hidden;
+	}
+	div[role=main] {
+		left:130px;
+		margin-right: 0;
+		margin-left:130px;
+		padding: 0px 50px 0px;
+		width:780px;
 		-webkit-transition: margin-left 0.25s linear;
 		-moz-transition: margin-left 0.25s linear;
 		-transition: margin-left 0.25s linear;
 	}
-
-	footer[role=contentinfo], aside[role=complementary] {
-		/*display: none;*/
+	div[role=main]:after {
+		display: none;
+	}		
+	header[role=banner]{
+		left:auto;
+		width: 130px;
+		position: absolute;
 	}
-	footer[role=contentinfo] {
+	div[role=main]:before {
+		left: 120px;	
+	}
+	header[role=banner] {
+	display:inline-block;
+	}
+	/**/
+	
+	footer[role=contentinfo], aside[role=complementary] {
 		display: none;
 	}
 
 }
+
 
 @media screen and (max-height: 710px) and (max-width: 980px) and (-webkit-min-device-pixel-ratio: 0) {
 

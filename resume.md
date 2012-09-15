@@ -7,21 +7,23 @@ weight: 3
 ---
 {% include JB/setup %}
 <style>
-bbbox {
-left:0;
-right:0;
-	position:fixed;
-	margin: 0 200px;
-	padding-left: 0;
+div.bbbox {
+	width:880px;
+	height:1000px;
+	margin: 0 auto;
 	top:105px;
-	bottom:35px;
+	bottom:0;
 }
 iframe {
-	max-width:880px;
-	width:100%;
-	height:100%;
+	position:absolute;
+	left:-50px;
+	top:-50px;
+	width:880px;
+	height:1000px;
 }
 </style>
 <center>
+<div class="bbbox">
 <iframe src="http://docs.google.com/gview?url=http://iceboal.com/resume_online_version.pdf&amp;embedded=true" frameborder="0"> </iframe>
+</div>
 </center>
