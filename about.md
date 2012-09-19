@@ -6,6 +6,27 @@ group: navigation
 weight: 2
 ---
 {% include JB/setup %}
+##Wordle of Titles and Abstracts from Recently Read Papers 
+<style>
+	.wordle {
+		
+		background: #EEE url(/images/content.png) repeat center top !important;
+		width: 780px;
+			box-shadow: none!important;
+
+	}
+	.wordle img {
+			width: 780px !important;
+			margin:0 !important;
+			max-width: 880px !important;
+
+			-moz-box-shadow: none!important;
+			-webkit-box-shadow:none!important;
+	}
+</style>
+<div class="wordle">
+<img src="{{ BASE_PATH }}/images/wordle.png" alt="wordle">
+</div>
 <style>
 
         div.picrow
