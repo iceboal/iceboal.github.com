@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 /*
 Reset
 */
@@ -19,20 +20,42 @@ Core
 */
 
 html {
-  background: #333 url(/images/body.png) repeat center center fixed;
-  height: 100%;
+	background: #333 url(/images/body.png) repeat center center fixed;
+	height: 100%;
 /*        overflow-y: auto;
 */      }
 
 body {
 	background: #333 url(/images/body.png) repeat center center fixed;
 	color: #333;
-	font: 13px/20px "Helvetica Neue", Arial, sans-serif;
-  height: 100%;
-  overflow-x: hidden;
+	font: 13px/20px Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
+  	height: 100%;
+	overflow-x: hidden;
 
 /**/	width:100%;
 }
+
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:bold;color:#333333;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;color:#999999;}
+h1{font-size:30px;line-height:36px;}h1 small{font-size:18px;}
+h2{font-size:24px;line-height:36px;}h2 small{font-size:18px;}
+h3{line-height:27px;font-size:18px;}h3 small{font-size:14px;}
+h4,h5,h6{line-height:18px;}
+h4{font-size:14px;}h4 small{font-size:12px;}
+h5{font-size:12px;}
+h6{font-size:11px;color:#999999;text-transform:uppercase;}
+
+
+.pagination{height:36px;margin:18px 0;}
+.pagination ul{display:inline-block;*display:inline;*zoom:1;margin-left:0;margin-bottom:0;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);}
+.pagination li{display:inline;}
+.pagination a{float:left;padding:0 14px;line-height:34px;text-decoration:none;border:1px solid #ddd;border-left-width:0;}
+.pagination a:hover,.pagination .active a{background-color:#f5f5f5;}
+.pagination .active a{color:#999999;cursor:default;}
+.pagination .disabled a,.pagination .disabled a:hover{color:#999999;background-color:transparent;cursor:default;}
+.pagination li:first-child a{border-left-width:1px;-webkit-border-radius:3px 0 0 3px;-moz-border-radius:3px 0 0 3px;border-radius:3px 0 0 3px;}
+.pagination li:last-child a{-webkit-border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0;}
+.pagination-centered{text-align:center;}
+.pagination-right{text-align:right;}
 
 a {
 	color: #333;
@@ -46,7 +69,7 @@ a:active {
 }
 
 strong {
-	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-family: Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 del {
@@ -60,7 +83,7 @@ img {
 }
 
 ul, ol {
-  font-family: "Helvetica Neue", arial, sans-serif;
+	font-family: Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 blockquote {
@@ -92,8 +115,8 @@ Structure
 */
 
 div[role=main] {
-  background-color: #eee;
-  background: #eee url(/images/content.png) repeat center top;
+	background-color: #eee;
+	background: #eee url(/images/content.png) repeat center top;
 	background: url(/images/content-inner-left.png) repeat-y left top, url(/images/content-inner-right.png) repeat-y right top, #eee url(/images/content.png) repeat center top;
 	margin: 0 200px;
 	padding: 0px 50px 0px;
@@ -147,6 +170,7 @@ div[role=main] footer,
 div[role=main] header {
   padding-top: 35px;
 }
+
 
 div[role=main] footer {
   padding-bottom: 30px;
@@ -282,6 +306,7 @@ div[role=main] footer ul {
 /* Sidebar */
 
 aside[role=complementary] {
+	font-weight:bold;
   top: 0px;
   right: 0px;
   width: 130px;
@@ -383,7 +408,7 @@ nav[role=navigation] li.active a {
 
 div[role=main] header {
 	border-bottom: 1px solid #ccc;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	height: 30px;
 	padding-bottom: 35px;
 	line-height: 30px;
@@ -402,11 +427,18 @@ div[role=main] header p {
 }
 
 div[role=main] header p a {
-	font-size: 24px;
+	font-size: 34px;
+	font-style: italic;
+
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
 	text-shadow: #fff 0 1px 0;
 	float: left;
+}
+
+div[role=main] header p a small{
+	font-size: 18px;
+	font-weight: normal;
 }
 
 div[role=main] header p a.back {
@@ -461,7 +493,7 @@ Forms
 
 form input {
   display: block;
-	font: 13px "Helvetica Neue";
+	font: 13px/20px Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
 	height: 22px;
 	padding: 5px 1px 5px 30px;
 	width: 75px;
@@ -762,11 +794,13 @@ article.text {
 }
 
 article.text h2 {
-	font-size: 36px;
+	font-size: 24px;
 	line-height: 50px;
-	font-weight: normal;
+	font-weight: bold;
+	font-style: italic;
 	margin-bottom: 5px;
-	font-family: "PTSerif", Georgia, serif;
+	font-family: Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-family: "PTSerif", Georgia, serif;*/
 	padding-right: 32px;
 }
 
@@ -788,7 +822,7 @@ article.text h2 a:focus {
 }
 
 article.text.advanced div > p:first-child {
-	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-family: Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	line-height: 27px;
 }
@@ -980,7 +1014,7 @@ article.audio .article-content ul {
 	height: 40px;
 	line-height: 38px;
 	text-shadow: #fff 0 1px 0;
-	font-family: Helvetica Neue, Arial, sans-serif;
+	font-family: Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 11px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -1007,7 +1041,7 @@ article.audio .article-content ul li {
 }
 
 article.audio h2 {
-	font-family: Helvetica Neue, Arial, sans-serif;
+	font-family: Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-bottom: 4px;
 	margin-top: -1px;
 }
@@ -1097,11 +1131,11 @@ Pagination
 /*
 disqus
 */
-
 #disqus_thread,
 #post-notes {
+
   clear: left;
-  font-family: "Helvetica Neue", arial, sans-serif;
+	font-family: Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
   border-top: 1px solid #ccc;
   padding: 15px 0px 0px 0px;
   font-size: 13px;
@@ -1117,12 +1151,13 @@ disqus
 
 
 div[role=main] #disqus_thread h3 {
-  font-family: "Helvetica Neue", arial, sans-serif;
+	font-family: Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
 }
 
 #disqus_thread a {
-  font-family: "Helvetica Neue", arial, sans-serif;
+	display:none !important;
+	font-family: Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
 }
 
@@ -1194,6 +1229,7 @@ body.oldie {
 }
 
 .oldie aside[role=complementary] {
+
   position: absolute;
   top: 0px;
   right: 0px;
@@ -1249,6 +1285,39 @@ Media queries
 	}
 
 }
+
+/* tag_box ======================================================== */
+
+.tag_box {
+	list-style:none;
+	margin:0;
+	padding:5px 0 ;
+	overflow:hidden;
+}
+.tag_box li {
+	/*line-height:28px;*/
+}
+.tag_box.inline li {
+	float:left;
+}
+.tag_box a {
+	padding: 3px 6px;
+	margin: 2px;
+	background: #eee;
+	color:#333;
+	border-radius: 3px;
+	text-decoration:none;
+}
+.tag_box a span{
+	vertical-align:super;
+	font-size:0.8em;
+}
+.tag_box a.active {
+	background:#57A957;
+	border:1px solid #4C964D;
+	color:#FFF;
+}
+	
 
 @media screen and (max-height: 710px) and (max-width: 980px) and (-webkit-min-device-pixel-ratio: 0) {
 
