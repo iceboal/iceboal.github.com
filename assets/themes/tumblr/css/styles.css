@@ -762,11 +762,11 @@ article footer li.tweet {
 }
 
 article.text img {
-margin: 3px;
+/*margin: 3px;
   -webkit-box-shadow: 0px 0px 5px black;
   -moz-box-shadow: 0px 0px 5px black;
   box-shadow: 0px 0px 5px black;
-  max-width: 490px;
+  max-width: 490px;*/
 }
 
 .fullscreen .article-content img {

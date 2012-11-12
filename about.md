@@ -6,27 +6,6 @@ group: navigation
 weight: 2
 ---
 {% include JB/setup %}
-##Wordle of Titles and Abstracts from Recently Read Papers 
-<style>
-	.wordle {
-		
-		background: #EEE url(/images/content.png) repeat center top !important;
-		width: 780px;
-			box-shadow: none!important;
-
-	}
-	.wordle img {
-			width: 780px !important;
-			margin:0 !important;
-			max-width: 880px !important;
-
-			-moz-box-shadow: none!important;
-			-webkit-box-shadow:none!important;
-	}
-</style>
-<div class="wordle">
-<img src="{{ BASE_PATH }}/images/wordle.png" alt="wordle">
-</div>
 <style>
 
         div.picrow
@@ -40,8 +19,12 @@ weight: 2
             width:100%;
         }
         
-        img.photo { cursor: pointer; }
-	
+        img.photo { cursor: pointer; 
+x-shadow: 0px 0px 5px black;
+
+-webkit-box-shadow:0px 0px 5px rgba(0,0,0,1);   
+        -moz-box-shadow:0px 0px 5px rgba(0,0,0,1);
+	}
 	
 </style>
 ##Photos from My Flickr
@@ -67,8 +50,11 @@ td ,th{
 td img{
 	width:90%;
 	max-width:110px ;
-	-webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.5) !important;
-  	-moz-box-shadow:0px 0px 5px rgba(0,0,0,0.5) !important;  
+/*margin: 3px;*/
+  box-shadow: 0px 0px 5px black;
+
+-webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.5); 
+  	-moz-box-shadow:0px 0px 5px rgba(0,0,0,0.5);  
 }
 </style>
 <script type="text/javascript" src="http://www.douban.com/service/badge/iceboal/?show=collection&amp;n=14&amp;columns=7&amp;picsize=medium&amp;hidelogo=yes&amp;hideself=yes&amp;cat=book" > </script>

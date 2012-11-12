@@ -8,17 +8,17 @@ weight: 3
 {% include JB/setup %}
 <style>
 div.bbbox {
-	width:880px;
+	margin-right:-50px;
+	margin-left:-50px;
+	margin-top:-50px;
+	max-width:880px;
+	width:auto;
 	height:1000px;
-	margin: 0 auto;
-	top:105px;
 	bottom:0;
 }
 iframe {
-	position:absolute;
-	left:-50px;
-	top:-50px;
-	width:880px;
+	width:100%;
+	max-width:880px;
 	height:1000px;
 }
 </style>
