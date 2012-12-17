@@ -20,14 +20,14 @@ Core
 */
 
 html {
-	background: #333 url(/images/body.png) repeat center center fixed;
+	background: #111 url(/images/body.png) repeat center center fixed;
 	height: 100%;
 /*        overflow-y: auto;
 */      }
 
 body {
-	background: #333 url(/images/body.png) repeat center center fixed;
-	color: #333;
+	background: #111 url(/images/body.png) repeat center center fixed;
+	color: #111;
 	font: 13px/20px Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
   	height: 100%;
 	overflow-x: hidden;
@@ -35,14 +35,13 @@ body {
 /**/	width:100%;
 }
 
-h1,h2,h3,h4,h5,h6{margin:0;font-weight:bold;color:#333333;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;color:#999999;}
+h1,h2,h3,h4,h5,h6{font-style: italic;margin:0;font-weight:bold;color:#111333;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;color:#999999;}
 h1{font-size:30px;line-height:36px;}h1 small{font-size:18px;}
-h2{font-size:24px;line-height:36px;}h2 small{font-size:18px;}
-h3{line-height:27px;font-size:18px;}h3 small{font-size:14px;}
-h4,h5,h6{line-height:18px;}
-h4{font-size:14px;}h4 small{font-size:12px;}
-h5{font-size:12px;}
-h6{font-size:11px;color:#999999;text-transform:uppercase;}
+h2{font-size:24px;line-height:33px;margin-top:15px;}h2 small{font-size:18px;}
+h3{font-size:18px;line-height:25px;margin-top:6px;}h3 small{font-size:14px;}
+h4{font-size:1em;line-height:20px;margin-top:3px;font-style:normal;}h3 small{font-size:14px;}
+h5,h6{font-size:1em;line-height:20px;font-weight:normal;}
+/*h6{font-size:11px;color:#999999;text-transform:uppercase;}*/
 
 
 .pagination{height:36px;margin:18px 0;}
@@ -58,7 +57,7 @@ h6{font-size:11px;color:#999999;text-transform:uppercase;}
 .pagination-right{text-align:right;}
 
 a {
-	color: #333;
+	color: #111;
 	text-decoration: underline;
 }
 
@@ -463,7 +462,7 @@ div[role=main] header p a.back span {
 div[role=main] header p a.back:hover,
 div[role=main] header p a.back:focus {
 	text-decoration: none;
-	color: #333;
+	color: #111;
 }
 
 div[role=main] header p a.back:active {
@@ -497,7 +496,7 @@ form input {
 	height: 22px;
 	padding: 5px 1px 5px 30px;
 	width: 75px;
-  color: #333;
+  color: #111;
   background: #fff url(http://static.tumblr.com/arbn4az/y4tlm6bfk/search.png) no-repeat left center;
 	margin-top: -1px;
 	-webkit-transition: width 0.25s linear;
@@ -574,7 +573,6 @@ footer[role=contentinfo],
 .fullscreen #engage {
 	opacity: 0;
 	filter: alpha(opacity=0);
-}
 
 /*
 Posts
@@ -585,7 +583,7 @@ article, #search-results {
 	margin-bottom: 40px;
 }
 
-.article-content, #search-results div {
+/*.article-content, #search-results div {
 	font-family: "PTSerif", Georgia, serif;
 	font-size: 16px;
 	line-height: 25px;
@@ -594,7 +592,7 @@ article, #search-results {
 	-moz-transition: font-size 0.25s linear, line-height 0.25s linear;
 	-transition: font-size 0.25s linear, line-height 0.25s linear;
 	-webkit-backface-visibility: hidden;
-}
+}*/
 
 .fullscreen .article-content, .fullscreen #search-results div {
 	line-height: 30px;
@@ -656,7 +654,7 @@ article footer a:focus {
 }
 
 article footer a:active {
-	color: #333;
+	color: #111;
 }
 
 article footer .meta {
@@ -790,19 +788,23 @@ article h2 a:focus, #search-results h2 a:hover, #search-results h2 a:focus {
 /* Text posts */
 
 article.text {
+  font-family: Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	line-height: 30px;
   position: relative;
 }
 
 article.text h2 {
-	font-size: 24px;
-	line-height: 50px;
+	font-size: 30px;
+	line-height: 40px;
 	font-weight: bold;
 	font-style: italic;
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 	font-family: Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
 	/*font-family: "PTSerif", Georgia, serif;*/
 	padding-right: 32px;
 }
+
 
 .single-post article.text h2 {
 	border-bottom: 1px solid #ccc;
@@ -818,7 +820,7 @@ article.text h2 a {
 article.text h2 a:hover,
 article.text h2 a:focus {
 	text-decoration: underline;
-	color: #333;
+	color: #111;
 }
 
 article.text.advanced div > p:first-child {
@@ -969,7 +971,7 @@ article.audio .article-content img {
 }
 
 article.audio .article-content {
-	background: #333 url(http://static.tumblr.com/arbn4az/i7dllvado/body.png) 0 0;
+	background: #111 url(http://static.tumblr.com/arbn4az/i7dllvado/body.png) 0 0;
 	color: #ccc;
 	padding: 20px 20px 57px 140px;
 	position: relative;
@@ -1036,7 +1038,7 @@ article.audio .article-content ul {
 
 article.audio .article-content ul li {
 	float: left;
-	color: #333;
+	color: #111;
 	padding: 1px 12px 1px 20px;
 }
 
@@ -1077,7 +1079,7 @@ Pagination
 .pagination-link:hover,
 .pagination-link:focus {
 	text-decoration: none;
-	color: #333;
+	color: #111;
 }
 
 .pagination-link:active {
@@ -1158,7 +1160,7 @@ div[role=main] #disqus_thread h3 {
 #disqus_thread a {
 	display:none !important;
 	font-family: Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  color: #111;
 }
 
 #dsq-subscribe, #dsq-account-dropdown, #dsq-sort-by {
@@ -1304,7 +1306,7 @@ Media queries
 	padding: 3px 6px;
 	margin: 2px;
 	background: #eee;
-	color:#333;
+	color:#111;
 	border-radius: 3px;
 	text-decoration:none;
 }

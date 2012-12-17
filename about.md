@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "About Me"
+title: Jingwei Zhang
 description: ""
 group: navigation
-weight: 2
+weight: 1
 ---
 {% include JB/setup %}
 <style>

@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Graph"
+category: wiki
+tags: [wiki]
+---
+{% include JB/setup %}
+
+<h4 id="toc_0.0.0.1">Adjacency matrix</h4>
+<dl>
+<dt>isomorphic</dt>
+<dd>iff there exists a permutation matrix \(P\) such that \(PA_1 P^{-1}=A_2\).</dd>
+<h4 id="toc_0.0.0.2">Laplacian matrix</h4>
+</dl>
+\[
+l_{i,j}=\begin{cases}-1 &amp; \text{if }(i,j)\in E\\d_i &amp; \text{if } i=j, \text{ and}\\0 &amp; \text{otherwise},\end{cases}
+\]
+<ul>
+<li>
+The first two non-zero smallest eigenvectors give a 2-D plot.
+
+<li>
+Why? No satisfactory theorem yet.	
+
+<li>
+The largest eigenvectors can be used for coloring.
+
+<li>
+\(\lambda_2\), the smallest non-zero eigenvalue is often called the Fiedler value (asscociated with N). <strong>important</strong>
+
+<li>
+A version of <em>Cheeger’s inequality</em> says that the <em>isoperimetric number</em> is intimately related to \(\lambda_2\).
+
+</ul>
+<p>
+*
+</p>
+<h4 id="toc_0.0.0.3">Spectral graph theory</h4>
+<p>
+<a href="http://en.wikipedia.org/wiki/Spectral_graph_theory">http://en.wikipedia.org/wiki/Spectral_graph_theory</a>
+While the adjacency matrix depends on the vertex labeling, its spectrum is graph invariant.
+</p>
+

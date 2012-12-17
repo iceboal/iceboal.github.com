@@ -1,0 +1,53 @@
+---
+layout: post
+title: "Linux"
+category: wiki
+tags: [wiki]
+---
+{% include JB/setup %}
+
+<h1 id="toc_1">LaTeX</h1>
+<dl>
+<dt>编译</dt>
+<dd><code>latex texfile.tex</code></dd>
+<dd><code>pdflatex texfile.tex</code></dd>
+<dd><code>xelatex texfile.tex</code></dd>
+<dt>dvi2pdf</dt>
+<dd><code>dvipdfm dvifile.dvi</code></dd>
+<h2 id="toc_1.1">Install LaTeX style (.sty) file</h2>
+</dl>
+<pre>
+sudo mkdir /usr/share/texmf-texlive/tex/latex/moderncv
+sudo mv moderncv.sty /usr/share/texmf-texlive/tex/latex/moderncv
+sudo mktexlsr
+</pre>
+<h1 id="toc_2">File System</h1>
+<dl>
+<dt>hosts</dt>
+<dd>/etc/hosts</dd>
+<dt>grub</dt>
+<dd>/etc/default/grub</dd>
+<h1 id="toc_3">Language</h1>
+</dl>
+<p>
+/etc/default/locale<br/>
+LANG="zh_CN.UTF-8"<br/>
+LANGUAGE="zh_CN:zh:en_US:en"
+</p>
+<h1 id="toc_4">ipv6</h1>
+<p>
+disable: /boot/grub/grub.cfg
+</p>
+<h1 id="toc_5">Vim</h1>
+<ul>
+<li>
+ctags
+
+<li>
+OmniCppComplete
+
+<li>
+SuperTab
+
+</ul>
+

@@ -8,5 +8,12 @@ http://iceboal.com/pages.html
 http://iceboal.com/resume.html
 http://iceboal.com/sitemap.txt
 http://iceboal.com/tags.html
-
-http://iceboal.com/test/2012-09-11-hello-world
+http://iceboal.com/vimwiki/Electronic Devices.html
+http://iceboal.com/vimwiki/Graph.html
+http://iceboal.com/vimwiki/index.html
+http://iceboal.com/vimwiki/Linear Algebra.html
+http://iceboal.com/vimwiki/Linux.html
+http://iceboal.com/vimwiki/Machine Learning.html
+http://iceboal.com/vimwiki/Math.html
+http://iceboal.com/vimwiki/Other.html
+http://iceboal.com/vimwiki/Social Network.html

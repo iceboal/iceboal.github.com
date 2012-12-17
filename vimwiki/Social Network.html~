@@ -1,0 +1,104 @@
+---
+layout: post
+title: "Social Network" [date="2000-01-01"]
+category: wiki
+tags: [wiki]
+---
+{% include JB/setup %}
+
+<h2 id="toc_0.1">Graph</h2>
+<h3 id="toc_0.1.1">A Tutorial on Spectral Clustering</h3>
+<p>
+Statistics and Computing'07
+</p>
+<h4 id="toc_0.1.1.1">Similarity graphs</h4>
+<p>
+similarity \(s_{ij}\)
+</p>
+<ul>
+<li>
+The \(\epsilon\)-neihborhood graph
+
+<li>
+\(k\)-nearest neighbor graphs
+
+<li>
+The fully connected graph
+
+</ul>
+<h4 id="toc_0.1.1.2">Graph Laplacians</h4>
+<h5 id="toc_0.1.1.2.1">The unnormalized graph Laplacian</h5>
+\[
+L=D-W
+\]
+<p>
+where \(d_i=\sum_{j=1}^n w_{ij}\)
+</p>
+<h5 id="toc_0.1.1.2.2">The normalized graph Laplacians</h5>
+\[
+L_{sym}:=D^{-1/2}LD^{-1/2}=I-D^{-1/2}WD^{-1/2}
+\]
+\[
+L_{rw}:=D^{-1}L=I-D^{-1}W
+\]
+<h4 id="toc_0.1.1.3">EigenSpokes: Surprising Patterns and Scalable Community Chipping in Large Graphs</h4>
+<p>
+PAKDD'10
+</p>
+
+<h2 id="toc_0.2">Jon Kleinberg's Work</h2>
+<h3 id="toc_0.2.1">Small-World Phenomena and Decentralized Search</h3>
+<h4 id="toc_0.2.1.1">The Small-World Phenomeon and Decentralized Search</h4>
+<p>
+SIAM News'04
+</p>
+<ul>
+<li>
+Small world: the principle that we are all linked by short chains.
+
+<li>
+Stanley Milgram in the 1960s found that the median length is six.
+
+<li>
+Work by D. Watts and S. Strogatz in Nature'98
+
+<li>
+Like a routing algorithm, use local information to find efficient paths (decentralized routing scheme).
+
+<li>
+Subtle variant of the Watts-Strogatz network will support efficient search - add links that decays like the dth power of their distance (in d dimensions), rather than add long range random shortcuts.
+
+</ul>
+<h4 id="toc_0.2.1.2">Small-World Phenomena and the Dynamics of Information</h4>
+<p>
+NIPS'01
+<dl>
+<dt>Hierarchical Network Models</dt>
+<dd>Using a complete \(b\)-ary tree \(T\). Let \(V\) denote the set of leaves of T; \(n\) denote the size of \(V\); \(h(v,w)\) denote the height of the least common ancestor of \(v\) and \(w\) in \(T\). A non-incerasing function \(f()\) , that for each \(v\) create a random link to \(w\) with probability proportional to \(f(h(v,w))\). Create \(k\) links out of each node \(v\) this way. Results in a graph \(G\). Edges and non-leaf nodes of \(T\) does not appear in \(G\).</dd>
+<dd>Choose \(k=c\log^2 n\); \(f(h)\) grows asymptotically like \(b^{-\alpha h}\)</dd>
+<dt>Group Structure</dt>
+<dd>\(q(v,w)\) denote the minimum size of a group containing both \(v\) and \(w\). \(f(q)\) grows asymptotically like \(q^{-\alpha}\).</dd>
+</p>
+<h3 id="toc_0.2.2">Information Flow and Cascading Behavior in Networks</h3>
+<h4 id="toc_0.2.2.1">The Wireless Epidemic</h4>
+</dl>
+<p>
+Nature'07
+</p>
+<ul>
+<li>
+Disease epidemic model need geographical information, which is different from epidemics on the interenet.
+
+<li>
+Spatial networks &lt;---&gt; 'scale-free' networks.
+
+</ul>
+<h4 id="toc_0.2.2.2">Maximizing the Spread of Influence through a Social Network</h4>
+<p>
+KDD'03
+</p>
+<h4 id="toc_0.2.2.3">Patterns of Influence in a Recommendation Network</h4>
+<p>
+PAKDD'06
+</p>
+
