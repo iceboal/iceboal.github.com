@@ -8,6 +8,9 @@ weight: 2
 {% include JB/setup %}
 
 ##Interests
+* Data Mining
+* Social Network
+* Information Retrieval
 * Machine Learning
 ##Wordle of Titles and Abstracts from Recently Read Papers 
 <style>.wordle {
