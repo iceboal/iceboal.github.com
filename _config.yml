@@ -9,13 +9,13 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Water in Water
-tagline: Site Tagline
-author :
+title : Jingwei Zhang 
+tagline: Homepage
+author : 
   name : Jingwei Zhang
   email : iceboal@gmail.com
-  github : username
-  twitter : username
+  github : iceboal
+  twitter : iceboal
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -124,4 +124,4 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+
