@@ -1,44 +1,64 @@
 ---
 layout: page
-title: Research
-tagline: 
+title: Jingwei Zhang
+description: ""
 group: navigation
-weight: 2
+weight: 1
 ---
 {% include JB/setup %}
+<style>
 
-##Interests
-* Machine Learning
-##Wordle of Titles and Abstracts from Recently Read Papers 
-<style>.wordle {
-
-                background: #EEE url(/images/content.png) repeat center top !important;
-		width: 100%;
-                max-width: 780px !important;
-                        box-shadow: none!important;
-
+        div.picrow
+        {
+	        border: 0px solid #000;
         }
-        .wordle img {
-		overflow: hidden;
-                        width: 100% !important;
-                        margin:-50px 0px -10px 0px !important;
 
-			border-left-width:20px;
-			border-right-width:20px;
-                        max-width: 780px !important;
-
-                        -moz-box-shadow: none!important;
-                        -webkit-box-shadow:none!important;
-
+        div#picstest
+        {
+            visibility : hidden;
+            width:100%;
         }
-   </style>
-<div class="wordle">
-<img src="{{_BASE_PATH_}}/images/wordle.png" alt="wordle">
-</div>
-## Publications
-* Daifeng Li, **Jingwei Zhang**, Golden Guo-zheng Sun, Jie Tang, Ying Ding, Zhipeng Luo. [What is the Nature of Tencent Weibo: Detect the Unique Features of Tencent Users.](http://arxiv.org/abs/1211.2197) To be submitted in WWW2013.
-* Daifeng Li, Zhipeng Luo, Golden Guo-zheng Sun, Jie Tang, **Jingwei Zhang**. [User-level Weibo Recommendation incorporating Social Influence based on Semi-Supervised Algorithm.](http://arxiv.org/abs/1210.7047) To be sumitted in JASIST.
-* Daifeng Li, Ying Ding, Xin Shuai, Golden Guo-zheng Sun, Jie Tang, Zhipeng Luo, **Jingwei Zhang**, Guo Zhang. [Topic-Level Opinion Influence Model(TOIM): An Investigation Using Tencent Micro-Blogging.](http://arxiv.org/abs/1210.6497) PLOS ONE Manuscript Draft.
-<br>
+        
+        img.photo { cursor: pointer; 
+x-shadow: 0px 0px 5px black;
 
+-webkit-box-shadow:0px 0px 5px rgba(0,0,0,1);   
+        -moz-box-shadow:0px 0px 5px rgba(0,0,0,1);
+	}
+	
+</style>
+##Photos from My Flickr
+<center>
+<div id="picstest"> </div>
+<div class="picrow"> </div>
+<div class="picrow"> </div>
+<div class="picrow"> </div>
+<div class="picrow"> </div>
+</center>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"> </script>
+<script type="text/javascript" src="assets/themes/tumblr/javascript/photos.js"> </script>
+---
+## Recently Read Books
+<style TYPE="text/css">
+table {
+margin:0 auto;
+width:100%;
+}
+td ,th{
+	width:10%;
+}
+td img{
+	width:90%;
+	max-width:110px ;
+/*margin: 3px;*/
+  box-shadow: 0px 0px 5px black;
 
+-webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.5); 
+  	-moz-box-shadow:0px 0px 5px rgba(0,0,0,0.5);  
+}
+</style>
+<script type="text/javascript" src="http://www.douban.com/service/badge/iceboal/?show=collection&amp;n=14&amp;columns=7&amp;picsize=medium&amp;hidelogo=yes&amp;hideself=yes&amp;cat=book" > </script>
+---
+## Recently Watched Movies
+<script type="text/javascript" src="http://www.douban.com/service/badge/iceboal/?show=collection&amp;select=favorite&amp;n=14&amp;columns=7&amp;picsize=medium&amp;hidelogo=yes&amp;hideself=yes&amp;cat=movie|site" > </script>
+---
