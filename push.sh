@@ -1,3 +1,3 @@
-git add .
-git commit -q -m 'Add new content'
-git push -q origin master 
+git add -A
+git commit -m 'Add new content'
+git push 
