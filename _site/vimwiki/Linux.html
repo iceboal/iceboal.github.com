@@ -66,14 +66,12 @@
 
 <p>dvi2pdf:</p>
 <div class='highlight'><pre><code class='sh'>dvipdfm dvifile.dvi
-</code></pre>
-</div>
+</code></pre></div>
 <h2 id='install_latex_style_sty_file'>Install LaTeX style (.sty) file</h2>
 <div class='highlight'><pre><code class='sh'>sudo mkdir /usr/share/texmf-texlive/tex/latex/moderncv
 sudo mv moderncv.sty /usr/share/texmf-texlive/tex/latex/moderncv
 sudo mktexlsr
-</code></pre>
-</div>
+</code></pre></div>
 <h1 id='file_system'>File System</h1>
 
 <p>hosts: <code>/etc/hosts</code></p>
@@ -87,8 +85,7 @@ sudo mktexlsr
 <p><code>/etc/default/locale</code></p>
 <div class='highlight'><pre><code class='sh'><span class='nv'>LANG</span><span class='o'>=</span><span class='s2'>&quot;zh_CN.UTF-8&quot;</span>
 <span class='nv'>LANGUAGE</span><span class='o'>=</span><span class='s2'>&quot;zh_CN:zh:en_US:en&quot;</span>
-</code></pre>
-</div>
+</code></pre></div>
 <h1 id='ipv6'>ipv6</h1>
 
 <p>disable: <code>/boot/grub/grub.cfg</code></p>
@@ -100,8 +97,7 @@ ip tunnel add sit1 mode sit remote 59.66.4.50 <span class='nb'>local</span> <spa
 ifconfig sit1 up
 ifconfig sit1 add 2001:da8:200:900e:0:5efe:<span class='nv'>$local_ip</span>/64
 ip route add ::/0 via 2001:da8:200:900e::1 metric 1
-</code></pre>
-</div>
+</code></pre></div>
 <h1 id='vim'>Vim</h1>
 
 <ul>
@@ -149,7 +145,6 @@ ip route add ::/0 via 2001:da8:200:900e::1 metric 1
   
     <!--  <footer>
 	<h4>Published</h4>
-    <div class="date"><span>Liquid error: undefined method `strftime' for nil:NilClass</span></div>
 
   
     <h4>Tags</h4>
