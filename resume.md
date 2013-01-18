@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Resume"
+title: "My CV"
 description: ""
 group: navigation
 weight: 4
