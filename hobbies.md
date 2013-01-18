@@ -7,7 +7,6 @@ weight: 2
 ---
 {% include JB/setup %}
 <style>
-
         div.picrow
         {
 	        border: 0px solid #000;
@@ -19,10 +18,10 @@ weight: 2
             width:100%;
         }
         
-        img.photo { cursor: pointer; 
-x-shadow: 0px 0px 5px black;
-
--webkit-box-shadow:0px 0px 5px rgba(0,0,0,1);   
+        img.photo { 
+        cursor: pointer; 
+        x-shadow: 0px 0px 5px black;
+        -webkit-box-shadow:0px 0px 5px rgba(0,0,0,1);   
         -moz-box-shadow:0px 0px 5px rgba(0,0,0,1);
 	}
 	
