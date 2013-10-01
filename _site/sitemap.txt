@@ -2,6 +2,7 @@
 http://iceboal.com/archive.html
 http://iceboal.com/atom.xml
 http://iceboal.com/categories.html
+http://iceboal.com/contact.html
 http://iceboal.com/hobbies.html
 http://iceboal.com/index.html
 http://iceboal.com/pages.html
@@ -19,3 +20,4 @@ http://iceboal.com/vimwiki/Math.html
 http://iceboal.com/vimwiki/Other.html
 http://iceboal.com/vimwiki/Pattern_Recognition.html
 http://iceboal.com/vimwiki/Social_Network.html
+http://iceboal.com/wechat.html

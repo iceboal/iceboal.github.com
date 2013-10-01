@@ -1,59 +1,59 @@
 
 <!DOCTYPE html>
 <html lang="en">
-   <head>    
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title> Graph</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title> Graph</title>
 
-      
-      <meta name="author" content="Jingwei Zhang">
+        
+        <meta name="author" content="Jingwei Zhang">
 
-      <meta name="viewport" content=" user-scalable=yes, maximum-scale=1.0"/>
-      <meta name="apple-mobile-web-app-capable" content="yes">
-      <meta name="if:Advanced text post styles" content="0">
-      <meta name="if:Enable Tag Toggle" content="0">
-      <meta name="text:Dribbble username" content="">
-      <meta name="text:Disqus shortname" content="iceboal">
-      <meta name="text:Facebook username" content="">
-      <meta name="text:Flickr username" content="iceboal">
-      <meta name="text:Foursquare username" content="">
-      <meta name="text:Gowalla username" content="">
-      <meta name="text:Google Plus URL" content="">
-      <meta name="text:Google Analytics ID" content="UA-34166196-1">
-      <meta name="text:LinkedIn account URL" content="">
-      <meta name="keywords" content="about: blank">
-      <link rel="alternate" type="application/rss+xml" href="http://iceboal.com/atom.xml">
-      <link rel="shortcut icon" href="http://iceboal.com/images/nichijo_bwTrans.png">
-      <link rel="apple-touch-icon" href="http://iceboal.com/images/1.jpg">
-      <link rel="stylesheet" href="http://iceboal.com/assets/themes/tumblr/css/pygments.css">
-      <!--link rel="stylesheet" href="http://iceboal.com/assets/themes/tumblr/css/max-fontface.css"-->
-      <style type="text/css" media="screen"> </style>
-      <!--link rel="stylesheet" type="text/css" media="screen and (max-device-width: 1200px)" href="http://iceboal.com/assets/themes/tumblr/css/small_styles.css"-->
-      <link rel="stylesheet" href="http://iceboal.com/assets/themes/tumblr/css/styles.css">
+        <meta name="viewport" content=" user-scalable=yes, maximum-scale=1.0"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="if:Advanced text post styles" content="0">
+        <meta name="if:Enable Tag Toggle" content="0">
+        <meta name="text:Dribbble username" content="">
+        <meta name="text:Disqus shortname" content="iceboal">
+        <meta name="text:Facebook username" content="">
+        <meta name="text:Flickr username" content="iceboal">
+        <meta name="text:Foursquare username" content="">
+        <meta name="text:Gowalla username" content="">
+        <meta name="text:Google Plus URL" content="">
+        <meta name="text:Google Analytics ID" content="UA-34166196-1">
+        <meta name="text:LinkedIn account URL" content="">
+        <meta name="keywords" content="about: blank">
+        <link rel="alternate" type="application/rss+xml" href="http://iceboal.com/atom.xml">
+        <link rel="shortcut icon" href="http://iceboal.com/images/nichijo_bwTrans.png">
+        <link rel="apple-touch-icon" href="http://iceboal.com/images/1.jpg">
+        <link rel="stylesheet" href="http://iceboal.com/assets/themes/tumblr/css/pygments.css">
+        <!--link rel="stylesheet" href="http://iceboal.com/assets/themes/tumblr/css/max-fontface.css"-->
+        <style type="text/css" media="screen"> </style>
+        <!--link rel="stylesheet" type="text/css" media="screen and (max-device-width: 1200px)" href="http://iceboal.com/assets/themes/tumblr/css/small_styles.css"-->
+        <link rel="stylesheet" href="http://iceboal.com/assets/themes/tumblr/css/styles.css">
 
-      <script type="text/x-mathjax-config">
-         MathJax.Hub.Config({
-            tex2jax: {
-               inlineMath: [ ['$','$'], ['\\(','\\)'] ],
-               processEscapes: true
-            }
-         });
-      </script>
-      <script type="text/javascript"
-         src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+                    processEscapes: true
+                }
+                });
+            </script>
+            <script type="text/javascript"
+                src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
 
-      <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
-   </head>
-   <!--[if lte IE 8 ]> <body id="default" class="oldie "> <![endif]-->
-      <!--[if (gte IE 9)|!(IE)]><!--><body id="default" class=""> <!--<![endif]-->
+            <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+        </head>
+        <!--[if lte IE 8 ]> <body id="default" class="oldie "> <![endif]-->
+            <!--[if (gte IE 9)|!(IE)]><!--><body id="default" class=""> <!--<![endif]-->
 
 
-         <div role="main" id="main">
+                <div role="main" id="main">
 
-            
+                    
 <header>
         <p><a>          
              Graph 
@@ -62,39 +62,31 @@
 
 <article class="text">
     <div class="article-content">
-    <h4 id='adjacency_matrix'>Adjacency matrix</h4>
+    
+<h4 id="adjacency_matrix">Adjacency matrix</h4>
 
 <p>isomorphic:: iff there exists a permutation matrix $P$ such that <code>$PA_1 P^{-1}=A_2$</code>.</p>
 
-<h4 id='laplacian_matrix'>Laplacian matrix</h4>
+<h4 id="laplacian_matrix">Laplacian matrix</h4>
 
 <pre><code>	l_{i,j}=\begin{cases}-1 &amp; \text{if }(i,j)\in E\\d_i &amp; \text{if } i=j, \text{ and}\\0 &amp; \text{otherwise},\end{cases}</code></pre>
 
 <ul>
-<li>
-<p>The first two non-zero smallest eigenvectors give a 2-D plot.</p>
-</li>
+<li>The first two non-zero smallest eigenvectors give a 2-D plot.</li>
 
-<li>
-<p>Why? No satisfactory theorem yet.</p>
-</li>
+<li>Why? No satisfactory theorem yet.</li>
 
-<li>
-<p>The largest eigenvectors can be used for coloring.</p>
-</li>
+<li>The largest eigenvectors can be used for coloring.</li>
 
-<li>
-<p>$\lambda_2$, the smallest non-zero eigenvalue is often called the Fiedler value (asscociated with N). <em>important</em></p>
-</li>
+<li>$\lambda_2$, the smallest non-zero eigenvalue is often called the Fiedler value (asscociated with N). <em>important</em></li>
 
-<li>
-<p>A version of <em>Cheeger’s inequality</em> says that the <em>isoperimetric number</em> is intimately related to <code>$\lambda_2$</code>.</p>
-
-<h4 id='spectral_graph_theory'>Spectral graph theory</h4>
-
-<p><a href='http://en.wikipedia.org/wiki/Spectral_graph_theory'>Wikipedia</a> While the adjacency matrix depends on the vertex labeling, its spectrum is graph invariant.</p>
-</li>
+<li>A version of <em>Cheeger’s inequality</em> says that the <em>isoperimetric number</em> is intimately related to <code>$\lambda_2$</code>.</li>
 </ul>
+
+<h4 id="spectral_graph_theory">Spectral graph theory</h4>
+
+<p><a href="http://en.wikipedia.org/wiki/Spectral_graph_theory">Wikipedia</a> While the adjacency matrix depends on the vertex labeling, its spectrum is graph invariant.</p>
+
     <hr>
     <!--div class="pagination">
       <ul>
@@ -154,20 +146,22 @@
     </footer>-->
 </article> 
 
-            
 
-         </div><!--! end of main -->
 
-         <header role="banner">
-         <h1><a target="_blank" href="/" style="background-image:url(http://iceboal.com/images/1.jpg)">Jingwei Zhang</a></h1>
-         <nav role="navigation">
-         <ul> 
-            
-            
-            
+                </div><!--! end of main -->
+
+                <header role="banner">
+                <h1><a target="_blank" href="/" style="background-image:url(http://iceboal.com/images/1.jpg)">Jingwei Zhang</a></h1>
+                <nav role="navigation">
+                <ul> 
+                    
+                    
+                    
 
 
  
+  
+   
   
    
   
@@ -217,7 +211,11 @@
   
    
   
+   
+  
  
+  
+   
   
    
   
@@ -267,7 +265,11 @@
   
    
   
+   
+  
  
+  
+   
   
    
   
@@ -296,10 +298,6 @@
    
     
       
-      	
-      	<li><a href="http://iceboal.com/vimwiki/index.html">MyWiki</a></li>
-      	
-      
     
    
   
@@ -317,7 +315,11 @@
   
    
   
+   
+  
  
+  
+   
   
    
   
@@ -367,52 +369,24 @@
   
    
   
- 
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
    
   
  
   
    
   
+   
+  
+   
+  
+   
+    
+      
+      	
+      	<li><a href="http://iceboal.com/contact.html">Contact Information</a></li>
+      	
+      
+    
    
   
    
@@ -456,44 +430,6 @@
    
   
    
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
- 
   
    
   
@@ -577,6 +513,56 @@
   
    
   
+   
+  
+   
+  
+ 
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
  
   
    
@@ -619,49 +605,101 @@
   
    
   
+   
+  
+   
+  
+ 
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
  
 
 
 
 
-         </ul>
-         </nav><!--! end of navigation -->
-         </header><!--! end of banner -->
+                </ul>
+                </nav><!--! end of navigation -->
+                </header><!--! end of banner -->
 
-         <aside role="complementary">
-         <ul>
-            <li><a target="_blank" href="http://weibo.com/iceboal"><img src="http://iceboal.com/images/sina-icon.png" alt="WEIBO Icon">WEIBO</a></li>
-            <li><a target="_blank" href="http://www.douban.com/people/iceboal/"><img src="http://iceboal.com/images/douban-icon.png" alt="DOUBAN Icon">DOUBAN</a></li>
+                <aside role="complementary">
+                <ul>
+                    <li><a target="_blank" href="http://www.flickr.com/photos/iceboal/"><img src="http://iceboal.com/images/flickr-icon.png" alt="FLICKR Icon">FLICKR</a></li>
+                    <li><a target="_blank" href="http://www.facebook.com/iceboal/"><img src="http://iceboal.com/images/facebook-icon.png" alt="Facebook Icon">FACEBOOK</a></li>
 
-            <li><a target="_blank" href="http://www.flickr.com/photos/iceboal/"><img src="http://iceboal.com/images/flickr-icon.png" alt="FLICKR Icon">FLICKR</a></li>
+                    <li><a target="_blank" href="http://weibo.com/iceboal"><img src="http://iceboal.com/images/sina-icon.png" alt="WEIBO Icon">WEIBO</a></li>
+                    <li><a target="_blank" href="http://www.douban.com/people/iceboal/"><img src="http://iceboal.com/images/douban-icon.png" alt="DOUBAN Icon">DOUBAN</a></li>
+                    <li><a target="_blank" href="http://iceboal.com/wechat.html"><img src="http://iceboal.com/images/wechat-icon.png" alt="WeChat Icon">WeChat</a></li>
 
-            <li><a target="_blank" href="http://iceboal.com/atom.xml"><img src="http://iceboal.com/images/rss-icon.png" alt="RSS Icon">RSS Feed</a></li>
-            <!--li><a target="_blank" href="http://twitter.com/iceboal"><img src="http://iceboal.com/images/twitter-icon.png" alt="Twitter icon">Twitter</a></li-->
+                    <li><a target="_blank" href="http://iceboal.com/atom.xml"><img src="http://iceboal.com/images/rss-icon.png" alt="RSS Icon">RSS Feed</a></li>
+                    <!--li><a target="_blank" href="http://twitter.com/iceboal"><img src="http://iceboal.com/images/twitter-icon.png" alt="Twitter icon">Twitter</a></li-->
 
-         </ul>
-         </aside><!--! end of complementary -->
+                </ul>
+                </aside><!--! end of complementary -->
 
-         <footer role="contentinfo">
-         <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0px" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" align="center"/></a></p>
-         <p>Content by <a href="about.html">Jingwei Zhang</a></br>Powered by <a href="http://github.com/mojombo/jekyll/" title="A static, minimalist CMS">Jekyll</a></br>Theme by <a target="_blank" href="http://pixelunion.net">Pixel Union</a></span></p>
-      </footer><!--! end of contentinfo -->
+                <footer role="contentinfo">
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0px" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" align="center"/></a></p>
+                <p>Content by <a href="about.html">Jingwei Zhang</a></br>Powered by <a href="http://github.com/mojombo/jekyll/" title="A static, minimalist CMS">Jekyll</a></br>Theme by <a target="_blank" href="http://pixelunion.net">Pixel Union</a></span></p>
+            </footer><!--! end of contentinfo -->
 
-      <nodisplay style="display:none;">
-      <script type="text/javascript">
-         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-      </script>
-      <script type="text/javascript">
-         try {
-               var pageTracker = _gat._getTracker("UA-34166196-1");
-               pageTracker._trackPageview();
-            } catch(err) {}
-         </script>
-         <script src="http://s20.cnzz.com/stat.php?id=4469014&web_id=4469014&show=pic1" language="JavaScript"></script>
-         <script type="text/javascript">
-            var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-            document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3022058bb6519daab8c047d5e5c6e88b' type='text/javascript'%3E%3C/script%3E"));
-            </script> 
-            <nodisplay>
+            <nodisplay style="display:none;">
+            <script type="text/javascript">
+                var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+                document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+                <script type="text/javascript">
+                    try {
+                        var pageTracker = _gat._getTracker("UA-34166196-1");
+                        pageTracker._trackPageview();
+                    } catch(err) {}
+</script>
+<script src="http://s20.cnzz.com/stat.php?id=4469014&web_id=4469014&show=pic1" language="JavaScript"></script>
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3022058bb6519daab8c047d5e5c6e88b' type='text/javascript'%3E%3C/script%3E"));
+    </script> 
+    <nodisplay>
       </body></html>
 
