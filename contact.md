@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Contact Information"
-description: ""
+title: "Contact"
+description: "Information"
 group: navigation
 weight: 5
 ---
