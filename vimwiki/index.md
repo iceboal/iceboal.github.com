@@ -3,7 +3,6 @@ layout: page
 title: "MyWiki"
 tagline: Generated from Vimwiki - Under Construction
 description: ""
-group: navigation
 weight: 3
 ---
 {% include JB/setup %}
