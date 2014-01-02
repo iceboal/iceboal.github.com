@@ -436,6 +436,7 @@ div[role=main] header p a {
 
 div[role=main] header p small a{
    font-size: 18px;
+   float: none;
    font-weight: normal;
 }
 

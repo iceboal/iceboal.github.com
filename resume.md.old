@@ -2,8 +2,6 @@
 layout: page
 title: "My CV"
 description: ""
-group: navigation
-weight: 4
 ---
 {% include JB/setup %}
 <style>
