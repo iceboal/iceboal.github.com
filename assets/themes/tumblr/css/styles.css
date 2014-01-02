@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6{font-style: italic;margin:0;font-weight:bold;color:#111333;tex
 h1{font-size:30px;line-height:36px;}h1 small{font-size:18px;}
 h2{font-size:24px;line-height:33px;margin-top:15px;}h2 small{font-size:18px;}
 h3{font-size:18px;line-height:25px;margin-top:6px;}h3 small{font-size:14px;}
-h4{font-size:1em;line-height:20px;margin-top:3px;font-style:normal;}h3 small{font-size:14px;}
+h4{font-size:1em;line-height:20px;margin-top:5px;font-style:normal;}h3 small{font-size:14px;}
 h5,h6{font-size:1em;line-height:20px;font-weight:normal;}
 /*h6{font-size:11px;color:#999999;text-transform:uppercase;}*/
 
@@ -181,6 +181,21 @@ div[role=main] footer {
 .fullscreen div[role=main] footer,
 .fullscreen .description {
    width: 600px;
+}
+
+.about {
+height:100%;   
+}
+.me {
+width: 50%;
+aligh:right;
+margin:0 0 0 auto;
+float:right;
+height:100%;
+}
+.abouttext {
+float:left;
+width: 50%;
 }
 
 footer[role=contentinfo],
@@ -431,12 +446,10 @@ div[role=main] header p a {
    text-decoration: none;
    -webkit-font-smoothing: antialiased;
    text-shadow: #fff 0 1px 0;
-   float: left;
 }
 
 div[role=main] header p small a{
    font-size: 18px;
-   float: none;
    font-weight: normal;
 }
 

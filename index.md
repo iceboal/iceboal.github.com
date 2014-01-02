@@ -11,7 +11,6 @@ weight: 1
 height:100%;   
 }
 .me {
-
 width: 50%;
 aligh:right;
 margin:0 0 0 auto;
