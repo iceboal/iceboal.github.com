@@ -4,9 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title> Social Network</title>
+        <title>My CV</title>
 
-        
+        <meta name="description" content="">
         <meta name="author" content="Jingwei Zhang">
 
         <meta name="viewport" content=" user-scalable=yes, maximum-scale=1.0"/>
@@ -55,159 +55,41 @@
 
                     
 <header>
-        <p><a>          
-             Social Network 
-        </a></p>
+<p><a>          
+   My CV 
+</a></p>
 </header>
 
 <article class="text">
-    <div class="article-content">
-    
-<h2 id="graph">Graph</h2>
 
-<h3 id="a_tutorial_on_spectral_clustering">A Tutorial on Spectral Clustering</h3>
+<style>
+div.bbbox {
+	margin-right:-50px;
+	margin-left:-50px;
+	margin-top:-50px;
+	max-width:880px;
+	width:auto;
+	height:1000px;
+	bottom:0;
+}
+iframe {
+	width:100%;
+	max-width:880px;
+	height:1000px;
+}
+</style>
+<center>
+<div class="bbbox">
+<iframe src="http://docs.google.com/gview?url=http://iceboal.com/resume_online_version.pdf&amp;embedded=true" frameborder="0"> </iframe>
+</div>
+</center>
 
-<p>Statistics and Computing’07</p>
-
-<h4 id="similarity_graphs">Similarity graphs</h4>
-
-<p>similarity <code>$s_{ij}$</code></p>
-
-<ul>
-<li>The $\epsilon$-neihborhood graph</li>
-
-<li>$k$-nearest neighbor graphs</li>
-
-<li>The fully connected graph</li>
-</ul>
-
-<h4 id="graph_laplacians">Graph Laplacians</h4>
-
-<h5 id="the_unnormalized_graph_laplacian">The unnormalized graph Laplacian</h5>
-
-<pre><code>	\(L=D-W\)</code></pre>
-
-<p>where <code>$d_i=\sum_{j=1}^n w_{ij}$</code></p>
-
-<h5 id="the_normalized_graph_laplacians">The normalized graph Laplacians</h5>
-
-<pre><code>	L_{sym}:=D^{-1/2}LD^{-1/2}=I-D^{-1/2}WD^{-1/2}
-	L_{rw}:=D^{-1}L=I-D^{-1}W</code></pre>
-
-<h4 id="eigenspokes_surprising_patterns_and_scalable_community_chipping_in_large_graphs">EigenSpokes: Surprising Patterns and Scalable Community Chipping in Large Graphs</h4>
-
-<p>PAKDD’10</p>
-
-<h2 id="jon_kleinbergs_work">Jon Kleinberg’s Work</h2>
-
-<h3 id="smallworld_phenomena_and_decentralized_search">Small-World Phenomena and Decentralized Search</h3>
-
-<h4 id="the_smallworld_phenomeon_and_decentralized_search">The Small-World Phenomeon and Decentralized Search</h4>
-
-<p>SIAM News’04</p>
-
-<ul>
-<li>Small world: the principle that we are all linked by short chains.</li>
-
-<li>Stanley Milgram in the 1960s found that the median length is six.</li>
-
-<li>Work by D. Watts and S. Strogatz in Nature’98</li>
-
-<li>Like a routing algorithm, use local information to find efficient paths (decentralized routing scheme).</li>
-
-<li>Subtle variant of the Watts-Strogatz network will support efficient search - add links that decays like the dth power of their distance (in d dimensions), rather than add long range random shortcuts.</li>
-</ul>
-
-<h4 id="smallworld_phenomena_and_the_dynamics_of_information">Small-World Phenomena and the Dynamics of Information</h4>
-
-<p>NIPS’01 Hierarchical Network Models</p>
-
-<ul>
-<li>Using a complete <code>$b$</code>-ary tree <code>$T$</code>. Let $V$ denote the set of leaves of T; <code>$n$</code> denote the size of <code>$V$</code>; <code>$h(v,w)$</code> denote the height of the least common ancestor of <code>$v$</code> and <code>$w$</code> in <code>$T$</code>. A non-incerasing function <code>$f()$</code> , that for each <code>$v$</code> create a random link to <code>$w$</code> with probability proportional to <code>$f(h(v,w))$</code>. Create <code>$k$</code> links out of each node <code>$v$</code> this way. Results in a graph <code>$G$</code>. Edges and non-leaf nodes of <code>$T$</code> does not appear in <code>$G$</code>.</li>
-
-<li>Choose <code>$k=c\log^2 n$</code>; <code>$f(h)$</code> grows asymptotically like <code>$b^{-\alpha h}$</code> Group Structure::</li>
-
-<li><code>$q(v,w)$</code> denote the minimum size of a group containing both <code>$v$</code> and <code>$w$</code>. <code>$f(q)$</code> grows asymptotically like <code>$q^{-\alpha}$</code>.</li>
-</ul>
-
-<h3 id="information_flow_and_cascading_behavior_in_networks">Information Flow and Cascading Behavior in Networks</h3>
-
-<h4 id="the_wireless_epidemic">The Wireless Epidemic</h4>
-
-<p>Nature’07</p>
-
-<ul>
-<li>Disease epidemic model need geographical information, which is different from epidemics on the interenet.</li>
-
-<li>Spatial networks &lt;—&gt; ‘scale-free’ networks.</li>
-</ul>
-
-<h4 id="maximizing_the_spread_of_influence_through_a_social_network">Maximizing the Spread of Influence through a Social Network</h4>
-
-<p>KDD’03</p>
-
-<h4 id="patterns_of_influence_in_a_recommendation_network">Patterns of Influence in a Recommendation Network</h4>
-
-<p>PAKDD’06</p>
-
-    <hr>
-    <!--div class="pagination">
-      <ul>
-      
-        <li class="prev disabled"><a>&larr; Previous</a></li>
-      
-        <li><a href="http://iceboal.com/archive.html">Archive</a></li>
-      
-        <li class="next disabled"><a>Next &rarr;</a>
-      
-      </ul>
-    </div>
-    <hr>
-    
-
-
-  <div id="disqus_thread"></div>
-<script type="text/javascript">
-    
-    var disqus_shortname = 'iceboal'; // required: replace example with your forum shortname
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<!--a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a-->
-
-
-
-
-  </div-->
-  
-    <!--  <footer>
-	<h4>Published</h4>
-
-  
-    <h4>Tags</h4>
-    <ul class="tag_box">
-    
-    
-
-
-  
-     
-    	<li><a href="http://iceboal.com/tags.html#wiki-ref">wiki <span></span></a></li>
-    
-  
-
-
-
-    </ul>
-    
-    </footer>-->
 </article> 
+
+<footer>
+</footer>
+
+
 
 
 
@@ -223,6 +105,8 @@
 
 
  
+  
+   
   
    
   
@@ -254,33 +138,7 @@
   
    
   
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
  
-  
-   
-  
-   
   
    
   
@@ -314,22 +172,6 @@
   
    
   
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
  
   
    
@@ -349,6 +191,14 @@
    
   
    
+  
+   
+  
+   
+  
+   
+  
+ 
   
    
   
@@ -361,6 +211,10 @@
    
     
       
+      	
+      	<li><a href="http://iceboal.com/resume.html">My Resume</a></li>
+      	
+      
     
    
   
@@ -371,7 +225,13 @@
    
   
    
-  
+    
+      
+      	
+      	<li class="active"><a href="http://iceboal.com/resume.md.old" class="brand">My CV</a></li>
+      	
+      
+    
    
   
    
@@ -381,6 +241,14 @@
    
   
  
+  
+   
+  
+   
+  
+   
+  
+   
   
    
   
@@ -400,69 +268,13 @@
     
       
       	
-      	<li><a href="http://iceboal.com/resume.html">My CV</a></li>
+      	<li><a href="http://iceboal.com/contact.html">Contact</a></li>
       	
       
     
    
   
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
  
-  
-   
-  
-   
-  
-   
-  
-   
-    
-      
-      	
-      	<li><a href="http://iceboal.com/contact.html">Contact Information</a></li>
-      	
-      
-    
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
   
    
   
@@ -514,47 +326,7 @@
   
    
   
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
   
    
   
@@ -606,93 +378,7 @@
   
    
   
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
  
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
- 
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
-  
-   
   
    
   
@@ -736,7 +422,7 @@
                     <li><a target="_blank" href="http://www.douban.com/people/iceboal/"><img src="http://iceboal.com/images/douban-icon.png" alt="DOUBAN Icon">DOUBAN</a></li>
                     <li><a target="_blank" href="http://iceboal.com/wechat.html"><img src="http://iceboal.com/images/wechat-icon.png" alt="WeChat Icon">WeChat</a></li>
 
-                    <li><a target="_blank" href="http://iceboal.com/atom.xml"><img src="http://iceboal.com/images/rss-icon.png" alt="RSS Icon">RSS Feed</a></li>
+                    <!--li><a target="_blank" href="http://iceboal.com/atom.xml"><img src="http://iceboal.com/images/rss-icon.png" alt="RSS Icon">RSS Feed</a></li>
                     <!--li><a target="_blank" href="http://twitter.com/iceboal"><img src="http://iceboal.com/images/twitter-icon.png" alt="Twitter icon">Twitter</a></li-->
 
                 </ul>
