@@ -32,13 +32,18 @@ width: 50%;
 </div>
 ## About Me
 I am pursuing MS degree in Computer Science at Columbia University, specialize in Machine Learning.
-Previously I was working with Prof. <a href="http://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a> at Knowledge Engineering Lab. 
+Previously I was working with Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/) at Knowledge Engineering Lab. 
 Discovering patterns of the world with machine, dealing with complexity, are the goals of my research.
 
 ##Research Interests
 * Machine Learning
 * Data Mining
 * Social Network
+
+##My Data Science Roadmap
+I modified the roadmap created by [Swami Chandrasekaran](http://nirvacana.com/thoughts/becoming-a-data-scientist/) to show my current knowledge status. [_See full-size map._]({{_BASE_PATH_}}/images/ml.png)
+
+![Legend]({{_BASE_PATH_}}/images/legend.png)
 
 ##Wordle of Titles and Abstracts from Recently Read Papers 
 <style>.wordle {
