@@ -41,7 +41,9 @@ Discovering patterns of the world with machine, dealing with complexity, are the
 * Social Network
 
 ##My Data Science Roadmap
-I modified the roadmap created by [Swami Chandrasekaran](http://nirvacana.com/thoughts/becoming-a-data-scientist/) to show my current knowledge status. [_See full-size map._]({{_BASE_PATH_}}/images/ml.png)
+I modified the roadmap created by [Swami Chandrasekaran](http://nirvacana.com/thoughts/becoming-a-data-scientist/) to show my current knowledge status. 
+
+[_See the full-size map._]({{_BASE_PATH_}}/images/ml.png)
 
 ![Legend]({{_BASE_PATH_}}/images/legend.png)
 
