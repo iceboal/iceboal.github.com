@@ -10,7 +10,7 @@ weight: 2
 
 ## Education
 
-- **MSc in Coumpter Science, 3.92**, **Columbia University**, New York (2013--)
+- **MSc in Computer Science, 3.92**, **Columbia University**, New York (2013--)
 
 _Machine Learning Track_
 
@@ -22,7 +22,7 @@ _Machine Learning Track_
 
 ## Work experience
 
-#### 2012	*Data Mining Intern*, @Tencent(QQ) Inc.
+#### 2012	*Data Mining Intern*, @Tencent Inc \& THU.
 
 - **Unveiling the Unique Features of Tencent Weibo**
 
