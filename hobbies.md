@@ -46,6 +46,7 @@ td img{
 * Alpine Skiing
 * Photography
 * Psychology ↔ Sociology ↔ Econimics
+
 ##Photos from My Flickr
 <center>
 <div id="picstest"> </div>
@@ -57,5 +58,7 @@ td img{
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"> </script>
 <script type="text/javascript" src="assets/themes/tumblr/javascript/photos.js"> </script>
 ---
+
 ## Recently Read Books
+
 <script type="text/javascript" src="http://www.douban.com/service/badge/iceboal/?show=collection&amp;n=14&amp;columns=7&amp;picsize=medium&amp;hidelogo=yes&amp;hideself=yes&amp;cat=book" > </script>

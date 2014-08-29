@@ -30,6 +30,7 @@ width: 50%;
 <img src="{{_BASE_PATH_}}/images/me.jpg" alt="me">
 </div>
 </div>
+
 ## About Me
 
 I am pursuing MS degree in Computer Science at Columbia University, specialize in Machine Learning.

@@ -27,6 +27,7 @@ _Machine Learning Track_
 - **Feed and Report Platform Daily Flash**
 
 Use various AWS services and visualization techniques to automatically generate daily report of the usage of Amazon Marketplace Feed and Report Platform services, and provide a web portal for users to customize their daily email report.
+
 #### 2012	*Data Mining Intern*, @Tencent \& THU
 
 - **Unveiling the Unique Features of Tencent Weibo**
@@ -41,6 +42,7 @@ Used Hadoop to process collected data of more than 320M users and 3.7B microblog
 - **Word semantic representations using Bayesian Probabilistic Tensor Factorization**
 
 Introduced a Bayesian probabilistic tensor factorization model for synthesizing a single word vector representation and perperspective linear transformations from any number of word similarity matrices. Evaluated the word embeddings with GRE antonym questions, achieved the state-of-the-art performance. Paper accepted by EMNLP'14, project will be integrated in IBM Waston.
+
 #### 2014	*Research assistant*, @CS, Columbia U
 
 - **Extracting the Social Network of the Taliban (ongoing)**
