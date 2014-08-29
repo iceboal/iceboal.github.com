@@ -10,7 +10,7 @@ weight: 2
 
 ## Education
 
-- **MSc in Computer Science, 3.92**, **Columbia University**, New York (2013--)
+- **MSc in Computer Science, 4.0**, **Columbia University**, New York (2013--)
 
 _Machine Learning Track_
 
@@ -22,50 +22,55 @@ _Machine Learning Track_
 
 ## Work experience
 
-#### 2012	*Data Mining Intern*, @Tencent Inc \& THU.
+#### 2014	*SDE Intern*, @Amazon
+
+- **Feed and Report Platform Daily Flash**
+
+Use various AWS services and visualization techniques to automatically generate daily report of the usage of Amazon Marketplace Feed and Report Platform services, and provide a web portal for users to customize their daily email report.
+#### 2012	*Data Mining Intern*, @Tencent \& THU
 
 - **Unveiling the Unique Features of Tencent Weibo**
 
 Used Hadoop to process collected data of more than 320M users and 3.7B microblogs on a cluster of 36 servers. Studied Tencent Weibo from both macro and micro levels, discovered interesting difference between Tencent Weibo and Twitter.
 
-- **User-level Microblog Recommendation based on Semi-Supervised Algorithm**
-
-Our group proposed a Factor Graph based microblog recommendation algorithm TSI-WR (Topic-Level Social Influence based Weibo Recommendation), outperformed several baseline methods. Responsible for data cleaning in the group.
-
 
 ## Academic experience
 
+#### 2014	*Research project*, @CS, Columbia U
+
+- **Word semantic representations using Bayesian Probabilistic Tensor Factorization**
+
+Introduced a Bayesian probabilistic tensor factorization model for synthesizing a single word vector representation and perperspective linear transformations from any number of word similarity matrices. Evaluated the word embeddings with GRE antonym questions, achieved the state-of-the-art performance. Paper accepted by EMNLP'14, project will be integrated in IBM Waston.
 #### 2014	*Research assistant*, @CS, Columbia U
 
 - **Extracting the Social Network of the Taliban (ongoing)**
 
 Using natural language processing technique to perform social event extraction over a large tranche of newspapers and magazines produced by Taliban, aim to construct a mapping of the social network of the Taliban leadership.
-#### 2013	*Bachelor thesis*, @EE, THU
 
-- **Greedy Forwarding for Mobile Social Networks Embedded in Hyperbolic Spaces**
+- **Mention Network in the Enron Email Corpus**
 
-Designed and evaluated a novel greedy message forwarding algorithm using metrics in hyperbolic spaces, obtained competitive performance in terms of message delivery ratio and cost. Poster presented in SIGCOMM'13.
+We introduced a novel mention network from emails, then demonstrated such network can help perdicting the organizational dominance in the Enron corporation.
 
 
 ### Representative projects
 
-- Antonym detection using deep word representations (ongoing).
+- Acoustic bird species recognition app on iOS device (will be integrated in Birdsnap).
 
-- Bird song recognition using deep learning with implementation on iOS device (ongoing).
+- Use Machine Learning to help Kinsa Inc. building their theormometer app.
 
-- Body temperature prediction, aims to speed up thermometer measurement.
-
-- New York Times articles clustering using Latent Dirichlet Allocation.
+- Greedy forwarding algorithm for mobile social networks embedded in hyperbolic spaces.
 
 - Terrain classification based on wavelet method.
 
 - Music transcription using Gaussian Mixture Model and beat detection.
 
-- Test and evaluation of background extraction algorithms.
-
-- Vocabulary-building software.
-
 ## Contest Awards
+
+- 2014	**Amazon Global Intern Hackathon**
+
+  Rank 4th / 73 teams   
+
+  
 
 - 2013	**Kaggle Contest: Multi-label Bird Species Classification - NIPS 2013**
 
@@ -75,13 +80,7 @@ Designed and evaluated a novel greedy message forwarding algorithm using metrics
 
 - 2010	**Baidu Cup Tsinghua Duishi AI Contest**
 
-  Rank 2nd (team leader)  
-
-  
-
-- 2010	**Tsinghua QuanHuang AI Contest**
-
-  Rank 3rd   
+  Rank 2nd   
 
   
 
@@ -105,6 +104,10 @@ Designed and evaluated a novel greedy message forwarding algorithm using metrics
 
 ## Puiblications
 
+- **Jingwei Zhang**, Jeremy Salwen, Michael Glass, Alﬁo Gliozzo. _Word Semantic Representations using Bayesian Probabilistic Tensor Factorization_. To appear in EMNLP 2014.
+
+- Apoorv Agarwal, Adinoyi Omuya, **Jingwei Zhang**, Owen Rambow. _Enron Corporation: You’re the Boss if People Get Mentioned to You_. To appear in SocialCom 2014.
+
 - **Jingwei Zhang**. _Greedy forwarding for mobile social networks embedded in hyperbolic spaces_. SIGCOMM 2013: 555–556, poster.
 
 - Daifeng Li, **Jingwei Zhang**, Golden Guo-zheng Sun, Jie Tang, Ying Ding, Zhipeng Luo. _What is the Nature of Chinese MicroBlogging: Unveiling the Unique Features of Tencent Weibo_. arXiv:1211.2197.
@@ -113,9 +116,9 @@ Designed and evaluated a novel greedy message forwarding algorithm using metrics
 
 ## Skills
 
-- Good Level: R, C++, Matlab, Python, Hadoop, SQL, \LaTeX, Vim
+- Good Level: Java, Python, R, Matlab, C++, Hadoop, SQL, \LaTeX, Vim
 
-- Basic Level: Java, Linux, Shell script, Git
+- Basic Level: Linux, Shell script, Git, d3.js, angular.js
 
 
 
