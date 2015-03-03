@@ -37,21 +37,13 @@ I am pursuing MS degree in Computer Science at Columbia University, specialize i
 Previously I was working with Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/) at Knowledge Engineering Lab. 
 Discovering patterns of the world with machine, dealing with complexity, are the goals of my research.
 
-##Research Interests
+## Research Interests (general)
 
 * Machine Learning
 * Natural Language Processing
 * Social Network
 
-##My Data Science Roadmap
-
-I modified the roadmap created by [Swami Chandrasekaran](http://nirvacana.com/thoughts/becoming-a-data-scientist/) to show my current knowledge status. 
-
-[_See the full-size map._]({{_BASE_PATH_}}/images/ml.png)
-
-![Legend]({{_BASE_PATH_}}/images/legend.png)
-
-##Wordle of Titles and Abstracts from Recently Read Papers 
+## Wordle of Titles and Abstracts from Recently Read Papers
 <style>.wordle {
     background: #EEE url(/images/content.png) repeat center top !important;
     width: 100%;
@@ -79,8 +71,9 @@ I modified the roadmap created by [Swami Chandrasekaran](http://nirvacana.com/th
 
 ## Publications
 
-* **Jingwei Zhang**, Jeremy Salwen, Michael Glass, Alﬁo Gliozzo. Word Semantic Representations using Bayesian Probabilistic Tensor Factorization, to appear in EMNLP 2014.
-* Apoorv Agarwal, Adinoyi Omuya, **Jingwei Zhang**, Owen Rambow. Enron Corporation: You’re the Boss if People Get Mentioned to You, SocialCom 2014.
+* **Jingwei Zhang**, Aaron Gerow, Jaan Altosaar, James Evans, Richard Jean So. Fast, Flexible Models for Discovering Topic Correlation across Weakly-Related Collections. Submitted to ACL 2015.
+* **Jingwei Zhang**, Jeremy Salwen, Michael Glass, Alﬁo Gliozzo. [Word Semantic Representations using Bayesian Probabilistic Tensor Factorization](http://www.aclweb.org/anthology/D14-1161), EMNLP 2014.
+* Apoorv Agarwal, Adinoyi Omuya, **Jingwei Zhang**, Owen Rambow. [Enron Corporation: You’re the Boss if People Get Mentioned to You](http://dl.acm.org/citation.cfm?id=2640065), SocialCom 2014.
 * **Jingwei Zhang**, [Greedy forwarding for mobile social networks embedded in hyperbolic spaces](http://dl.acm.org/citation.cfm?id=2491728), poster, SIGCOMM'13.
 * Daifeng Li, **Jingwei Zhang**, Golden Guo-zheng Sun, Jie Tang, Ying Ding, Zhipeng Luo, [What is the Nature of Tencent Weibo: Detect the Unique Features of Tencent Users](http://arxiv.org/abs/1211.2197), arXiv:1211.2197.
 * Daifeng Li, Zhipeng Luo, Golden Guo-zheng Sun, Jie Tang, **Jingwei Zhang**, [User-level Weibo Recommendation incorporating Social Influence based on Semi-Supervised Algorithm](http://arxiv.org/abs/1210.7047), arXiv:1210.7047.
