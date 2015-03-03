@@ -10,7 +10,7 @@ weight: 2
 
 ## Education
 
-- **MSc in Computer Science, 4.0**, **Columbia University**, New York (2013--)
+- **MSc in Computer Science, 4.0**, **Columbia University**, New York (2013--2014)
 
 _Machine Learning Track_
 
@@ -22,53 +22,68 @@ _Machine Learning Track_
 
 ## Work experience
 
+#### 2015	*SDE*, @Amazon
+
+- Joined the Feed and Report Platform Gateway team in Amazon Marketplace.
+
 #### 2014	*SDE Intern*, @Amazon
 
 - **Feed and Report Platform Daily Flash**
 
-Use various AWS services and visualization techniques to automatically generate daily report of the usage of Amazon Marketplace Feed and Report Platform services, and provide a web portal for users to customize their daily email report.
+Used various AWS services and visualization techniques to automatically generate daily report of the usage of Amazon Marketplace Feed and Report Platform services, and provide a web portal for users to view and customize their daily report.
 
-#### 2012	*Data Mining Intern*, @Tencent \& THU
+#### 2012	*Research Intern*, @THU \& Tencent
 
 - **Unveiling the Unique Features of Tencent Weibo**
 
 Used Hadoop to process collected data of more than 320M users and 3.7B microblogs on a cluster of 36 servers. Studied Tencent Weibo from both macro and micro levels, discovered interesting difference between Tencent Weibo and Twitter.
 
 
+
 ## Academic experience
 
 #### 2014	*Research project*, @CS, Columbia U
 
+- **Fast, Flexible Models for Discovering Topic Correlation across Weakly-Related Collections**
+
+Developed two probabilistic topic models, Correlated LDA and Correlated HDP, for analyzing topic correlations between large, asymmetric, and potentially weakly-related collections. Used C-LDA to compare over 300k documents in collections of sciences and humanities research from JSTOR.
+
+
 - **Word semantic representations using Bayesian Probabilistic Tensor Factorization**
 
-Introduced a Bayesian probabilistic tensor factorization model for synthesizing a single word vector representation and perperspective linear transformations from any number of word similarity matrices. Evaluated the word embeddings with GRE antonym questions, achieved the state-of-the-art performance. Paper accepted by EMNLP'14, project will be integrated in IBM Waston.
+Developed a Bayesian probabilistic tensor factorization model for generating word vector representations and per-perspective linear transformations from any number of word similarity perspectives. Evaluated the word embeddings with GRE antonym questions, achieved the state-of-the-art performance. Paper presented in EMNLP'14, project will be integrated in IBM Waston.
 
-#### 2014	*Research assistant*, @CS, Columbia U
+#### 2014-	*Research assistant*, @CS, Columbia U
 
-- **Extracting the Social Network of the Taliban (ongoing)**
+- **Role Discovery based on Email Corpus**
 
-Using natural language processing technique to perform social event extraction over a large tranche of newspapers and magazines produced by Taliban, aim to construct a mapping of the social network of the Taliban leadership.
+Developed an application of semi-supervised learning that utilize Author Topic Model and graph Laplacian to automate role discovery with a small amount of training data.
+
 
 - **Mention Network in the Enron Email Corpus**
 
-We introduced a novel mention network from emails, then demonstrated such network can help perdicting the organizational dominance in the Enron corporation.
+We introduced a novel mention network from emails, then demonstrated such network can help predicting the organizational dominance in the Enron corporation. Implemented graph walk and re-ranking algorithm for name disambiguation.
+
+
+- **Extracting the Social Network of Taliban**
+
+Used natural language processing technique to perform social event extraction over a large tranche of newspapers and magazines produced by Taliban, aim to construct a mapping of the social network of the Taliban leadership.
+
 
 
 ### Representative projects
 
-- Acoustic bird species recognition app on iOS device (will be integrated in Birdsnap).
+- Acoustic bird species recognition app on iOS device.
 
-- Use Machine Learning to help Kinsa Inc. building their theormometer app.
+- Used Machine Learning to help Kinsa Inc. building their theormometer app.
 
 - Greedy forwarding algorithm for mobile social networks embedded in hyperbolic spaces.
-
-- Terrain classification based on wavelet method.
 
 - Music transcription using Gaussian Mixture Model and beat detection.
 
 ## Contest Awards
 
-- 2014	**Amazon Global Intern Hackathon**
+- 2014	**Amazon Global Intern Hackathon (Computer Vision)**
 
   Rank 4th / 73 teams   
 
@@ -106,9 +121,11 @@ We introduced a novel mention network from emails, then demonstrated such networ
 
 ## Puiblications
 
-- **Jingwei Zhang**, Jeremy Salwen, Michael Glass, Alﬁo Gliozzo. _Word Semantic Representations using Bayesian Probabilistic Tensor Factorization_. To appear in EMNLP 2014.
+- **Jingwei Zhang**, Aaron Gerow, Jaan Altosaar, James Evans, Richard Jean So. _Fast, Flexible Models for Discovering Topic Correlation across Weakly-Related Collections_. Submitted to ACL 2015.
 
-- Apoorv Agarwal, Adinoyi Omuya, **Jingwei Zhang**, Owen Rambow. _Enron Corporation: You’re the Boss if People Get Mentioned to You_. To appear in SocialCom 2014.
+- **Jingwei Zhang**, Jeremy Salwen, Michael Glass, Alfio Gliozzo. _Word Semantic Representations using Bayesian Probabilistic Tensor Factorization_. EMNLP 2014.
+
+- Apoorv Agarwal, Adinoyi Omuya, **Jingwei Zhang**, Owen Rambow. _Enron Corporation: You’re the Boss if People Get Mentioned to You_. SocialCom 2014.
 
 - **Jingwei Zhang**. _Greedy forwarding for mobile social networks embedded in hyperbolic spaces_. SIGCOMM 2013: 555–556, poster.
 
@@ -118,9 +135,9 @@ We introduced a novel mention network from emails, then demonstrated such networ
 
 ## Skills
 
-- Good Level: Java, Python, R, Matlab, C++, Hadoop, SQL, \LaTeX, Vim
+- Good Level: Java, Python, R, MATLAB, C/C++, Hadoop, SQL, \LaTeX, Vim
 
-- Basic Level: Linux, Shell script, Git, d3.js, angular.js
+- Basic Level: Linux, Shell script, Git, Cython, AWS, d3.js, angular.js
 
 
 
