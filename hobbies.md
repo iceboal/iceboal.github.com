@@ -6,46 +6,44 @@ group: navigation
 weight: 3
 ---
 {% include JB/setup %}
-<style>
-        div.picrow
-        {
-	        border: 0px solid #000;
-        }
+<style TYPE="text/css">
+    div.picrow {
+        border: 0px solid #000;
+    }
 
-        div#picstest
-        {
-            visibility : hidden;
-            width:100%;
-        }
-        
-        img.photo { 
-        cursor: pointer; 
-        x-shadow: 0px 0px 5px black;
-        -webkit-box-shadow:0px 0px 5px rgba(0,0,0,1);   
-        -moz-box-shadow:0px 0px 5px rgba(0,0,0,1);
-	}
-	
+    div#picstest {
+        visibility : hidden;
+        width:100%;
+    }
+
+    img.photo {
+    cursor: pointer;
+    x-shadow: 0px 0px 5px black;
+    -webkit-box-shadow:0px 0px 5px rgba(0,0,0,1);
+    -moz-box-shadow:0px 0px 5px rgba(0,0,0,1);
+    }
+
+    table {
+        margin:0 auto;
+        width:100%;
+    }
+
+    td, th{
+        width:10%;
+    }
+
+    td img{
+       width:90%;
+       max-width:110px ;
+       box-shadow: 0px 0px 5px black;
+       -webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.5);
+       -moz-box-shadow:0px 0px 5px rgba(0,0,0,0.5);
+    }
 </style>
 
-<style TYPE="text/css">
-table {
-margin:0 auto;
-width:100%;
-}
-td ,th{
-	width:10%;
-}
-td img{
-   width:90%;
-   max-width:110px ;
-   box-shadow: 0px 0px 5px black;
-   -webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.5); 
-   -moz-box-shadow:0px 0px 5px rgba(0,0,0,0.5);  
-}
-  </style>
 * Alpine Skiing
 * Photography
-* Psychology ↔ Sociology ↔ Econimics
+* Psychology ↔ Sociology ↔ Economics
 
 ##Photos from My Flickr
 <center>
